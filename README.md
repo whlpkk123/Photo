@@ -63,7 +63,7 @@ iOS 14 中系统新增了一个图片选择器PHPicker ( iOS14 以上使用)，�
 
 * **使用PHPickerController**
 
-![1.png](https://upload-images.jianshu.io/upload_images/153594-201494d30527feec.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](./image/1.jpeg)
 
 1. 使用 PHPickerConfiguration 配置 PHPicker，键 selectionLimit 设置为 n 表示最多可选中 n 张图片，0 为 maximum，默认值为1；使用 filter 设置想要的相册资源类型，包括 imagesFilter、videosFilter、livePhotosFilter，亦可以设置为数组@[ videoFilter , livePhotosFilter ]显示多种类型.
 2. 设置 PHPickerViewControllerDelegate 代理，接收选中照片后的回调；
